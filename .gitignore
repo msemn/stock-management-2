@@ -1,0 +1,36 @@
+# Maven
+.m2/repository/*
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# jEnv
+.java-version
+
+### OS X ###
+.DS_Store
+/.vscode/settings.json
+
+# File with link to report portal
+acceptance-tests/rp_launch.txt

@@ -11,6 +11,6 @@ public interface StockMapper {
 
     StockEntity fromModel(StockCreateDto stock);
 
-//    @Mapping(target="id", source="id")
+//    @Mapping(target="name", source="id")
     StockReadDto fromEntity(StockEntity entity);
 }
